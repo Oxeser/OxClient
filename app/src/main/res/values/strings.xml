@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OxClient</string>
+    <string name="service_name">OxClient Service</string>
+    <string name="service_description">OxClient overlay service for Minecraft</string>
+    
+    <!-- Module names -->
+    <string name="module_killaura">KillAura</string>
+    
+    <!-- Settings -->
+    <string name="setting_range">Range</string>
+    <string name="setting_aps">APS</string>
+    <string name="setting_autoblock">AutoBlock</string>
+    <string name="setting_rotations">Rotations</string>
+    <string name="setting_raycast">Raycast</string>
+    <string name="setting_priority">Priority</string>
+    <string name="setting_throughwalls">ThroughWalls</string>
+    <string name="setting_players">Players</string>
+    <string name="setting_mobs">Mobs</string>
+    <string name="setting_animals">Animals</string>
+    <string name="setting_invisibles">Invisibles</string>
+    <string name="setting_friends">Ignore Friends</string>
+    <string name="setting_fov">FOV</string>
+    <string name="setting_esp">ESP</string>
+    <string name="setting_switchdelay">Switch Delay</string>
+    <string name="setting_switchtime">Switch Time</string>
+    
+    <!-- Priority modes -->
+    <string name="priority_distance">Distance</string>
+    <string name="priority_health">Health</string>
+    <string name="priority_angle">Angle</string>
+    
+    <!-- UI -->
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="auto_start">Auto Start Service</string>
+    <string name="status_running">Status: Running</string>
+    <string name="status_stopped">Status: Stopped</string>
+    <string name="modules">Modules</string>
+    <string name="config">Config</string>
+    <string name="close">Close</string>
+    
+    <!-- Messages -->
+    <string name="service_started">OxClient service started</string>
+    <string name="service_stopped">OxClient service stopped</string>
+    <string name="overlay_permission_required">Overlay permission is required</string>
+    <string name="overlay_permission_granted">Overlay permission granted</string>
+    <string name="overlay_permission_denied">Overlay permission denied</string>
+    <string name="minecraft_not_found">Minecraft not found</string>
+    <string name="injection_successful">Injection successful</string>
+    <string name="injection_failed">Injection failed</string>
+    
+    <!-- Instructions -->
+    <string name="instructions">Instructions:\n1. Grant overlay permission\n2. Start the service\n3. Open Minecraft\n4. Use floating button to access menu</string>
+</resources>
