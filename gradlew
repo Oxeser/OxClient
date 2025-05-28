@@ -19,7 +19,7 @@ die () {
 PRG="$0"
 while [ -h "$PRG" ] ; do
     ls=$(ls -ld "$PRG")
-    link=$(expr "$ls" : '.*-> \.*\$')
+    link=$(expr "$ls" : '.*-> .*$')
     if expr "$link" : '/.*' > /dev/null; then
         PRG="$link"
     else
@@ -34,4 +34,4 @@ cd "$SAVED" >/dev/null
 
 JAVA_OPTS="$DEFAULT_JVM_OPTS $JAVA_OPTS"
 
-exec "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" "$@"
+exec java $JAVA_OPTS -jar "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" "$@"
